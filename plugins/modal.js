@@ -53,7 +53,7 @@ function _createModal(options) {
 
 
 $.modal = function(options) {    
-        const ANIMATION_CL = 2000
+        const ANIMATION_CL = 500
         const ANIMATION_OPEN = 1
         const $modal = _createModal(options) // const modal = document.createElement('div') - это он
         let closing = false // Делаем защиту от случайного вызова методов.
