@@ -43,12 +43,6 @@ html,body{
     }
 
     
-    @media (max-width: 400px){
-        .input-group-text{
-            max-width: 35%;
-        }
-    }
-    
 
 
 /* Настройки кнопки */
@@ -184,4 +178,10 @@ textarea {
     border-radius: .25rem;
     width: 25%;
     justify-content: center;
+}
+
+@media (max-width: 400px){
+    .input-group-text{
+        width: 35%;
+    }
 }
