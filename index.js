@@ -15,7 +15,16 @@ contentInput.addEventListener('input', (event) => {
 })
 widthInput.addEventListener('input', (event) => {
     widthValue = event.target.value
+
+    if (isNaN (widthValue) ) {
+        widthValue = 330
+        console.log("Размер окна: 330")
+    } else {
+        console.log("Размер окна: " + widthValue)
+    }
 })
+
+
 
 
 btn.addEventListener('click', () => {
