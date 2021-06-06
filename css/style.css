@@ -47,8 +47,12 @@ html,body{
 
 /* Настройки кнопки */
 .btn-container{
-    border-radius: 10px 10px 10px 10px;
-    display: contents;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.btn-style{
+    border-radius: 11px 11px 11px 11px;
 }
 
 textarea { 

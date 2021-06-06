@@ -37,7 +37,7 @@
         
         <div class="input-group mb-4">
             <span class="input-group-text" id="inputGroup-sizing-default">Ширина</span>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="width">
+            <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="width">
         </div>
 
     </div>
@@ -51,15 +51,16 @@
     <!-- <button id="btn">Сгенерировать</button> -->
 
     <!-- Кнопка №2 -->
-    <button class="btn-container" id="btn">
-        <div class="wrapper">
-            <div class="wave-btn">
-                <span class="wave-btn__text">Сгенерировать</span>
-                <span class="wave-btn__waves"></span>
+    <div class="btn-container">
+        <button class="btn-style" id="btn">
+            <div class="wrapper">
+                <div class="wave-btn">
+                    <span class="wave-btn__text">Сгенерировать</span>
+                    <span class="wave-btn__waves"></span>
+                </div>
             </div>
-        </div>
-    </button>
-
+        </button>
+    </div>
 
 <!-- В нем мы создали объект $ чтобы в него собирать плагины, подключили этот док раньше всех чтобы объект $ был доступен в следующих файлах. -->
 <script src="base.js"></script> 
