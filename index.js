@@ -16,12 +16,19 @@ contentInput.addEventListener('input', (event) => {
 widthInput.addEventListener('input', (event) => {
     widthValue = event.target.value
 
+    // Проверка на число
     if (isNaN (widthValue) ) {
         widthValue = 330
         console.log("Размер окна: 330")
     } else {
         console.log("Размер окна: " + widthValue)
     }
+
+    // Проверка на минимальную размерность
+    if(widthValue < 200) {
+        widthValue = 200
+    }
+
 })
 
 
